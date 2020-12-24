@@ -31,6 +31,7 @@ body {
   display: none;
   position: absolute;
   padding: 10px 10px 0 10px;
+  z-index: 2;
 }
 
 .menu_sub .menu__item {
@@ -42,4 +43,9 @@ body {
   left: -10px;
   top: 100%;
   min-width: 100%;
+}
+
+body > ul {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
 }
